@@ -130,6 +130,7 @@ export class ListCreator {
             }
         }
         document.getElementById("hintC").innerHTML = hintB;
+        document.getElementById("EnteredWord").focus();
     }
     replaceCharAtIndex(str, index, replacement) {
         return str.slice(0, index) + " " + replacement + str.slice(index + 1);
