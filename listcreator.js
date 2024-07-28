@@ -107,6 +107,7 @@ export class ListCreator {
             document.write("<button class=\"startPage\" type=\"button\">Go back to the word list</button><br>");
             const btnstartPage = document.querySelector(".startPage");
             btnstartPage.addEventListener('click', e => {this.startPage();})
+            document.getElementById("EnteredWord").focus();
         });
     }
 
