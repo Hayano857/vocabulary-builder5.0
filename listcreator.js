@@ -35,6 +35,7 @@ export class ListCreator {
                     this.detailedDefinitionB(indexA);
                 })
             }
+            document.write("<br><br><a href=\"./index.html\">Go back to Index page.</a><br>");
         });
     }
     startQuizA(){
